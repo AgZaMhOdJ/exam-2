@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.container {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 20px 0;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+
+header .phone {
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container div {
+    display: flex;
+    gap: 50px;
+}
+
+header .container nav {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.intro a {
+    background-color: #1AAB7B;
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+
+.intro .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro .container iframe {
+    width: 48%;
+    height: 400px;
+}
+
+.intro .container div {
+    width: 48%;
+}
+
+.intro h1 {
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.help {
+    background-color: #F2F4F6;
+    padding: 40px 0;
+}
+
+.help h2 {
+    text-align: center;
+}
+
+.help a {
+    color: black;
+    text-decoration: none;
+}
+
+.help .box1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.help .box2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.help .card {
+    background-color: transparent;
+    width: 28%;
+    border: 2px solid #E1E7ED;
+    border-radius: 10px;
+    padding: 30px 20px;
+}
+
+
+.help .card1 {
+    background-color: transparent;
+    width: 28%;
+    border-radius: 10px;
+    padding: 30px 20px;
+}
+
+.number {
+    background-image: url("./images/image 1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 750px;
+    width: 1330px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.contacts h1 {
+    text-align: center;
+}
+
+.contacts a {
+    color: white;
+    background-color: #1AAB7B;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.contacts input {
+    background-color: #000000BA;
+    padding: 15px 30px;
+    margin-top: 20px;
+}
+
+.contacts .container .number div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #000000BA;
+    padding: 50px 40px;
+    align-items: center;
+}
+
+footer {
+    background-color: black;
+    padding: 30px 100px;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .container div {
+    display: flex;
+    gap: 30px;
+}
